@@ -1,0 +1,307 @@
+/* INICIO */
+
+.titulo{
+    background-image: url('imagens/inicio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    text-align: left;
+    padding-bottom: 15%;
+}
+
+#titulo-inicio{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-bottom: 3%;
+    font-size: 90px;
+}
+
+#frase-inicio{
+    color: #9B9B9B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 10.5%;
+    font-size: 20px;
+}
+
+#cubo{
+    height: 9%;
+    width: 9%;
+    margin-left: 8%;
+    margin-top: 2%;
+    
+}
+
+
+#perfil{
+    background-color: #141414;
+}
+
+/*            SOBRE                         */
+
+.row {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6%;
+  
+}
+
+#imagem-perfil{
+     
+    width: 100%; /* Faz a imagem ocupar todo o espaço horizontal da div pai */
+    display: block; /* Remove o espaço adicional abaixo da imagem */
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.imagem-sobre, .texto-sobre {
+    flex: 1; /* Isso garante que ambas as div ocupem o mesmo espaço. */
+    padding: 10px; /* Isso é opcional, mas pode ajudar com o espaçamento entre as divs. */
+}
+
+
+#titulo-sobre{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+   font-weight: 600;
+   font-size: 55px;
+   padding-right: 40%;
+   padding-left: 10%;
+   
+}
+
+#paragrafo{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 30%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #9b9b9b;
+    padding: 11px 24px;
+    border: solid #9b9b9b 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 0px 1px 1px;
+    transition : 626ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    margin-left: 10%;
+    margin-top: 2%;
+    }
+
+    .btn:hover{
+
+        transition : 626ms;
+        padding: 10px 25px;
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #9b9b9b;
+        border: solid 0px #9b9b9b;
+        }
+
+/* SERVIÇOS */
+
+.row2 {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+#servicos{
+    background-color: #141414;
+}
+
+.nossos-servicos, .informacoes-servicos {
+    flex: 1; 
+    
+    
+}
+
+#titulo-servico{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    padding-right: 70%;
+    padding-left: 10%;
+   
+}
+
+#imagem-servicos{
+   width: 100%;
+    display: block; 
+    padding-top: 5%; 
+    padding-left: 10%;
+}
+
+.informacoes-servicos{
+   color: white ;
+   font-family: 'Poppins', sans-serif;
+   padding-top: 10%;
+   
+   padding-left: 10%;
+}
+
+.h3class{
+    font-size: 30px;
+    padding-bottom: 1%;
+    font-weight: 600;
+}
+
+.pclass{
+    font-size: 17px;
+    padding-right: 30%;
+    padding-bottom: 6%;
+    padding-left: 8%;
+    font-weight: 400;
+}
+
+.numero {
+    color:  #9b9b9b;
+    padding-right: 2%;
+}
+
+/* CLIENTES */
+
+#clientes{
+    background-color: white;
+}
+
+.titulo-clientes {
+    text-align: left; 
+    margin-bottom: 20px; 
+    font-family: 'Poppins', sans-serif;
+    color: #141414;
+    font-weight: 600;
+    font-size: 55px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.pclass2{
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    color: #141414;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-bottom: 8%;
+}
+
+#carousel{
+    padding-bottom: 5%;
+}
+
+#carousel img {
+    max-height: 34.9%; 
+    max-width: 34.9%;      
+    margin: 0 auto;    
+}
+
+.legenda{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-top: 3%;
+}
+
+.carousel-control-next{
+    margin-right: 250px;
+    color: #141414;
+}
+
+.carousel-control-prev{
+    margin-left: 250px;
+    color: #141414;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #141414;
+    background-color: #141414;
+} 
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 5px;   
+    top: 83%; 
+    bottom: auto; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: auto;
+    text-align: center;
+}
+
+
+/* TRABALHE CONOSCO */
+
+#final{
+    background-color: #141414;
+    padding-bottom: 10%;
+}
+
+.imagemfinal, .contato{
+    flex: 1; 
+}
+
+#imgfinal{
+    margin: auto;
+    display: block; 
+    width: 40%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.titulo-final{
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-bottom: 3%;
+}
+
+.topicos{
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    color:#9b9b9b;
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-top: 2%;
+}
+
+.subtopicos{
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-top: 1%;
+}
+
